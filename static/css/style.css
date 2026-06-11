@@ -120,7 +120,7 @@ img {
 /* brand-text removed to avoid duplicate company name; logo image used instead */
 
 .navbar-logo {
-  height: 88px;
+  height: 95px;
   width: auto;
   display: block;
   flex-shrink: 0;
@@ -128,7 +128,8 @@ img {
 
 @media (max-width: 991px) {
   .navbar-logo {
-    height: 64px;
+   height: 70px !important;
+    width: auto !important;
   }
 }
 
@@ -402,6 +403,7 @@ img {
   position: relative;
   z-index: 2;
   text-align: left;
+  padding-right: 60px;
 }
 
 .hero-title {
@@ -429,11 +431,12 @@ img {
 
 .hero-title span {
   display: inline-block;
+  font-size: clamp(2.8rem, 4vw, 5rem);
   color: var(--accent-highlight) !important;
   background: var(--accent-highlight-bg) !important;
   padding: 0.12rem 0.45rem;
   border-radius: 0.65rem;
-  line-height: 1.1;
+  line-height: 1.15 !important;
   vertical-align: middle;
   box-decoration-break: clone;
 }
@@ -466,6 +469,7 @@ img {
 .hero-visual {
   display: flex;
   justify-content: center;
+  padding-left: 40px;
   align-items: center;
   position: relative;
   z-index: 2;
@@ -546,6 +550,8 @@ img {
 .code-window {
   width: 100%;
   background: #01050F;
+  max-width: 650px;
+  margin-left: auto;
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid rgba(0, 87, 255, .15)
