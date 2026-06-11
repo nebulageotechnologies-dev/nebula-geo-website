@@ -1,60 +1,59 @@
-<<<<<<< HEAD
-# Nebula Geo Technologies — Django Website
+# Nebula Geo Technologies
 
-## Quick Start
+Official company website for Nebula Geo Technologies.
 
-### 1. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+## Live Website
 
-### 2. Run migrations
-```bash
-python manage.py migrate
-```
+https://nebulageotech12.pythonanywhere.com
 
-### 3. Seed demo data & create admin
-```bash
-python manage.py shell -c "exec(open('seed_data.py').read())"
-```
-Or run migrations fresh — superuser is created automatically on first migrate via the seeder.
+## Company Information
 
-### 4. Run the development server
-```bash
-python manage.py runserver
-```
+### Address
+SRS Tower,
+Near Canara Bank Road,
+Near New Bus Stand,
+Bhavani,
+Tamil Nadu - 638301
 
-Open http://127.0.0.1:8000
+### Contact
 
-## Admin Panel
-URL: http://127.0.0.1:8000/admin/
-Username: admin
-Password: nebula@2024
+Phone: +91 9952315483
 
-## Pages
-- / — Home
-- /about/ — About Us
-- /services/ — Services
-- /portfolio/ — Portfolio
-- /internship/ — Internship Programs
-- /contact/ — Contact Us
-- /privacy-policy/ — Privacy Policy
-- /terms/ — Terms & Conditions
+Email: info@nebulageo.com
 
-## Contact Details (pre-configured)
-- Phone: +91 91995 23154
-- Email: info@nebulageo.com
-- Instagram: @nebulageo_official
-- LinkedIn: Nebula Geo Technologies
-- Address: KJS Complex, 593-A2, Canara Bank Road, Near New Bus Stand, Bhavani, Tamil Nadu 638301
+Alternative Email:
+nebulageotechnologies@gmail.com
 
-## Tech Stack
-- Django 5.x
-- Bootstrap 5.3
-- Font Awesome 6.5
-- SQLite (default DB)
-- Google Fonts (Syne + Inter)
-=======
-# nebula-geo-website
-Nebula Geo Technologies is a technology solutions company specializing in web development, software development, mobile applications, UI/UX design, e-commerce solutions, and digital transformation services.
->>>>>>> 5cef6f6fd60d96097122092e1d0f238975ff71ed
+Instagram:
+https://www.instagram.com/nebulageo_official
+
+LinkedIn:
+https://www.linkedin.com/company/nebula-geo-technologies
+
+## Services
+
+- Website Development
+- Web Application Development
+- Software Development
+- Mobile App Development
+- GIS Solutions
+- UI/UX Design
+- Internship Programs
+
+## Technologies Used
+
+- Python
+- Django
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- SQLite
+
+## Deployment
+
+Hosted on PythonAnywhere.
+
+## Copyright
+
+© 2026 Nebula Geo Technologies. All Rights Reserved.
