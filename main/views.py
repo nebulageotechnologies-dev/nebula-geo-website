@@ -1,13 +1,16 @@
-from os import name
+
 
 from django.shortcuts import render, redirect
 from django.contrib import messages
+
+from django.http import JsonResponse
 from django.core.mail import send_mail
 from .models import Service, PortfolioProject, InternshipProgram, ContactMessage, InternshipApplication, TeamMember, Testimonial
 
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .serializers import ContactSerializer
+
 
 
 
@@ -95,10 +98,7 @@ def internship(request):
     )
 
 
-from django.shortcuts import render, redirect
-from django.contrib import messages
-from django.http import JsonResponse
-from django.core.mail import send_mail
+
 
 def internship_apply(request):
 

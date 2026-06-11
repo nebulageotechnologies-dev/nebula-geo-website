@@ -50,24 +50,26 @@ document.querySelectorAll('.counter').forEach(el => counterObs.observe(el));
 // Contact form AJAX
 
 
-// if (contactForm) {
-//     contactForm.addEventListener('submit', function () {
+const contactForm = document.getElementById('contactForm');
 
-//         const btn = contactForm.querySelector('button[type="submit"]');
+if (contactForm) {
+    contactForm.addEventListener('submit', function () {
 
-//         btn.innerHTML =
-//             '<i class="fas fa-spinner fa-spin me-2"></i> Sending...';
+        const btn = contactForm.querySelector('button[type="submit"]');
 
-//         btn.disabled = true;
+        btn.innerHTML =
+            '<i class="fas fa-spinner fa-spin me-2"></i> Sending...';
 
-//         setTimeout(() => {
-//             btn.innerHTML =
-//                 '<i class="fas fa-check-circle me-2"></i> Message Sent';
+        btn.disabled = true;
 
-//             btn.disabled = false;
-//         }, 2000);
-//     });
-// }
+        setTimeout(() => {
+            btn.innerHTML =
+                '<i class="fas fa-check-circle me-2"></i> Message Sent';
+
+            btn.disabled = false;
+        }, 2000);
+    });
+}
 
 // Portfolio filter
 document.querySelectorAll('.filter-btn[data-cat]').forEach(btn => {
