@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nebula Geo Technologies — Django Website
 
 ## Quick Start
@@ -53,3 +54,7 @@ Password: nebula@2024
 - Font Awesome 6.5
 - SQLite (default DB)
 - Google Fonts (Syne + Inter)
+=======
+# nebula-geo-website
+Nebula Geo Technologies is a technology solutions company specializing in web development, software development, mobile applications, UI/UX design, e-commerce solutions, and digital transformation services.
+>>>>>>> 5cef6f6fd60d96097122092e1d0f238975ff71ed
