@@ -89,6 +89,6 @@ EMAIL_USE_TLS = False
 EMAIL_USE_SSL = False
 
 EMAIL_HOST_USER = "ae4f4e001@smtp-brevo.com"
-EMAIL_HOST_PASSWORD = "xsmtpsib-68aa0c875ce02d3d93e25729e55cdebe35ff09f785b97ee98f362a3427467362-R40YfNuRksiEmvre"
+EMAIL_HOST_PASSWORD = ""
 
 DEFAULT_FROM_EMAIL = "nebulageotechnologies@gmail.com"
